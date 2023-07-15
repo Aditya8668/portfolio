@@ -1,0 +1,116 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <body>
+               
+                <style>
+                      *{
+                             padding: 0px;
+                                 margin: 0px;
+                                 font-family: sans-serif;
+                                }
+                       .sytle{
+                        position: relative;
+                        width: 100%;
+                        height: 100vh;
+                        background: #eff4fd;
+                       }   
+                       nav{
+                        display: flex;
+                        width: 84%;
+                        margin: auto;
+                        padding: 20px 0;
+                        align-items: center;
+                        justify-content: space-between;
+                       }      
+                       nav ul li{
+                        display: inline-block;
+                        list-style: none;
+                        margin: 10px 20px;
+
+                       }
+                       nav ul li a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                       }
+                       nav uk li a:hover{
+                        color:rgb(165, 42, 42)
+                       }
+                       .detel{
+                        margin-left: 8%;
+                        margin-top: 15%;
+                       }
+                       .detel h1{
+                        font-size: 50px;
+                        color: #212121;
+                        margin-bottom: 20px;
+                       }
+                       .detel p{
+                        color: #555;
+                        line-height: 22px;
+
+                       }
+                       .detel a{
+                        background: #212121;
+                        padding: 10px 18px;
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: #fff;
+                        display: inline-block;
+                        margin: 30px 0;
+                        border-radius:5px;
+                       }
+                       .images{
+                        width: 45%;
+                        height: 80%;
+                        position: absolute;
+                        bottom: 0;
+                        right: 100px;
+                       }
+                       .images img{
+                        height: 100%;
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0;
+                        transform: translatex(-50%);
+                        trasnsition: bottom 1s,left 1s;
+
+                       }
+
+                       .images:hover .shape{
+                        bottom: 40px;
+                       }
+                       .images:hover.office{
+                        left:45%;
+                       }
+                       </style>
+                       
+                        <title>my portfolio</title>
+                        <link rel="stylsheet" type="text/css" href="portfolio.css">
+
+                <nav>
+                    <img src="file:///E:/images/ars.jpg">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">PORTFOLIO </a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">HIRE ME</a></li>
+                        </ul>
+                        <div class="style">
+                    </nav>
+                    </div>
+                    <div class="detel">
+                        <h1>I am Aditya</h1>
+                        <p>this is my official portfolio website to shows all
+                            <br>Detail and work explains web development
+                        </p>
+                        <a href="#">Download cv</a>
+                    </div>
+                    <div class="images">
+                        <img src="file:///E:/images/square.jpg" class="square">
+                        <img src="file:///E:/images/office.jpg" class="office">
+                </html>
+                </head>
+            </body>
